@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+
+    --variableParrafo: 2rem;
+    --color1: #9300be;
+    --colores-filas: #92a0f5;
+    --colores-div-general: #de7513;
+    --ancho-div-general: 500px;
+    --margen-div-general: auto;
+    --colores-div-sec: #513318;
+    --ancho-div-sec: 100px;
+    --margen-div-sec: auto;
+    --float-div-general: left;
+    --float-div-sec: left;
+    --link-site: #513318;
+
+
+}
+
+
+p {
+    color: var(--color1);
+    font-size: var(--variableParrafo);
+}
+
+tr {
+    background-color: var(--colores-filas);
+}
+
+.general {
+
+    background-color: var(--colores-div-general);
+    width: var(--ancho-div-general);
+    margin: var(--margen-div-general);
+    float: var(--float-div-general);
+
+
+}
+
+.subitem {
+    background-color: var(--colores-div-sec);
+    width: var(--ancho-div-sec);
+    margin: var(--margen-div-sec);
+    float: var(--float-div-sec);
+
+}
+
+a:visited {
+
+
+
+
+    color: var(--link-site);
+
+}
